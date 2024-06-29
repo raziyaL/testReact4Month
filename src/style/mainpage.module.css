@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 830px;
+    margin: 0 auto;
+    z-index: 0;
+    position: relative;
+
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 830px;
+    text-align: start;
+    div{
+        height: 47px;
+        padding: 10px;
+        width: 200px;
+        button{
+            border: none;
+            color: red;
+            background-color: inherit;
+        }
+    }
+
+}
+.input{
+    width: 200px;
+    height: 47px;
+    background-color: #D9D9D9;
+    padding: 5px;
+    border: none;
+
+}
+.form{
+    display: flex;
+    gap: 10px;
+    margin: 30px auto;
+    width: 830px;
+}
+.createButton{
+    width: 200px;
+    height: 47px;
+    background-color: black;
+    color: white;
+}
+.title{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 835px;
+    justify-content: space-between;
+    margin: 0 auto;
+    div{
+        padding: 10px;
+        width: 190px;
+        text-align: start;
+        height: 47px;
+    }
+}
+.modal{
+    width: 450px;
+    height: 250px;
+    margin: 130px auto;
+    background-color: white;
+
+    p{
+        padding: 50px;
+    }
+    button{
+        width: 150px;
+        height: 47px;
+        background-color: #000;
+        color: white;
+    }
+}
+.modalBack{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
